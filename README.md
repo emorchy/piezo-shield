@@ -4,13 +4,18 @@ A Bar Mitzvah is a Jewish rite of passage where a boy becomes a man in the eyes 
 
 I completed my Bar Mitzvah in my [conservative](https://www.myjewishlearning.com/article/conservative-judaism-how-the-middle-became-a-movement/) synagogue at the age of 13 (conservative being a semi-strict Jewish branch, not an economic ideology). As the eldest child, I set the standard for my siblings to go above and beyond with extra prayers during the Bar Mitzvah service. Per custom, the congregation threw candy at me after I finished a 10 minute chanting of a Hebrew scripture. As a personal form of amusement, I wore a riot helmet as I was pelted with Bit-O-Honey.
 
-![Bit-O-Honey](images/bit-o-honey.png)
+<p align="center">
+<img width=200 src=images/bit-o-honey.png alt=Bit-O-Honey>
+</p>
 <center><em>If God made a candy even</em> he <em>couldn't break.</em></center>
 
 ## Shield of Daniel
 When my brother Daniel's Bar Mitzvah rolled around several years later, he wanted something above and beyond as well. To block the candy, he crafted a wooden shield with a Jewish Star in the center. The humor is not lost on Hebrew-speaking people when the Jewish Star (known as the "Shield of David") is superglued on a shield for a child's Bar Mitzvah.
 
-![Shield of Daniel](images/shield-of-daniel.jpeg)
+<p align="center">
+<img width=50% src=images/shield-of-daniel.jpeg alt="Shield of Daniel">
+</p>
+
 *Shield of Daniel*
 
 In a moment of "divine inspiration", I wondered how easy it could be to count how many candies were deflected by the shield.
@@ -27,12 +32,17 @@ I took a deep dive into piezoelectricity several months prior to this project, a
 #### Piezoelectricity - Quartz
 Piezoelectricity occurs when physical pressure is converted to an electric charge. Quartz is a beautiful example of piezoelecricity: when a precisely angled cut of quartz is struck, it releases voltage. One interesting quality of quartz is that every time it is struck with the same force, it releases the same voltage every time. This is why quartz is used in elecronic oscillators, clocks, and watches. 
 
-![Silicon Dioxide](images/silicon-dioxide.gif)
+<p align="center">
+<img src=images/silicon-dioxide.gif alt="Silicon Dioxide">
+</p>
+
 *This is how silicon dioxide materials (e.g quartz) create DC voltage with pressure*
 
 ### Physical Routing
 
-![Fritzing Model](images/shield-bb.jpg)
+<p align="center">
+<img width=50% src=images/shield-bb.jpg alt="Fritzing Model">
+</p>
 
 The Piezo wafer sensors are connected to the analog ports to provide different feedback for various pressures. I also attached a 100KΩ resistor to each wafer to prevent damage to the Nano. I used whatever large-load resistors were lying around, but I recommend 1MΩ for future projects.
 

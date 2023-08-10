@@ -7,7 +7,9 @@ I completed my Bar Mitzvah in my [conservative](https://www.myjewishlearning.com
 <p align="center">
 <img width=200 src=images/bit-o-honey.png alt=Bit-O-Honey>
 </p>
-<center><em>If God made a candy even</em> he <em>couldn't break.</em></center>
+<p align="center">
+<em>If God made a candy even</em> he <em>couldn't break.</em>
+</p>
 
 ## Shield of Daniel
 When my brother Daniel's Bar Mitzvah rolled around several years later, he wanted something above and beyond as well. To block the candy, he crafted a wooden shield with a Jewish Star in the center. The humor is not lost on Hebrew-speaking people when the Jewish Star (known as the "Shield of David") is superglued on a shield for a child's Bar Mitzvah.
@@ -15,8 +17,9 @@ When my brother Daniel's Bar Mitzvah rolled around several years later, he wante
 <p align="center">
 <img width=50% src=images/shield-of-daniel.jpeg alt="Shield of Daniel">
 </p>
-
-*Shield of Daniel*
+<p align="center">
+<em>Shield of Daniel</em>
+</p>
 
 In a moment of "divine inspiration", I wondered how easy it could be to count how many candies were deflected by the shield.
 
@@ -36,8 +39,9 @@ Piezoelectricity occurs when physical pressure is converted to an electric charg
 <p align="center">
 <img src=images/silicon-dioxide.gif alt="Silicon Dioxide">
 </p>
-
-*This is how silicon dioxide materials (e.g quartz) create DC voltage with pressure*
+<p align="center">
+<em>This is how silicon dioxide materials (e.g quartz) create DC voltage with pressure*</em>
+</p>
 
 ### Physical Routing
 
@@ -54,18 +58,23 @@ I used [this](https://www.amazon.com/MakerFocus-Discharge-Integrated-Charging-Pr
 This is the first completed project where I used a C++ class in a practical scenario. Although OOP wasn't necessary, it was interesting to complete. The code is in `shield.ino` with ample comments to set you on your way. :)
 
 ### Images
-## Images
 <p align="center">
-<img width=50% src=images/unconnected.jpg alt="Exposed">
+<img width=25% src=images/unconnected.jpg alt="Exposed" hspace=10>
+<img width=25% src=images/cardboard.jpg alt="Covered" hspace=10>
 </p>
-<center><em>Sensor Placement</em></center>
 
-<p align="center">
-<img width=50% src=images/cardboard.jpg alt="Covered">
+<div align="center">
+<p style="text-align: center;">
+<em>Sensor Placement&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Final Product&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>
 </p>
-<center><em>Final Product</em></center>
+</div>
+<div align="center">
 
-<em>Shield Sensors Demo (2 candies thrown simultaneously)</em>
+https://github.com/emorchy/piezo-shield/assets/40243355/9b1de6f8-0df2-4f6a-b2cb-a246f49b9a16
+
+
+*Shield Sensors Demo (2 candies thrown simultaneously)*
+</div>
 
 ### Final Thoughts
 The shield detected a total of 44 candies during his service. My brother got recognition of having the coolest and most well thought out Bar Mitzvah candy blocker in the synagogue. Sure, other children had tennis raquets or fly swatters, but they all cower at the might of Daniel's mighty Shield!

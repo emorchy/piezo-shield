@@ -27,6 +27,7 @@ In a moment of "divine inspiration", I wondered how easy it could be to count ho
 - 1 DC voltage boost converter
 - 1 TM1637 LED digit counter
 - 5 Piezo ceramic wafer plates
+- 1 Push-button
 
 I took a deep dive into piezoelectricity several months prior to this project, and I was excited to finally have an applied project for this fascinating phenomenon. I will be using manufactured piezoelectric ceramic wafers instead of quartz crystals, but the piezoelectric process is essentially the same.
 #### Piezoelectricity - Quartz
@@ -46,15 +47,27 @@ Piezoelectricity occurs when physical pressure is converted to an electric charg
 
 The Piezo wafer sensors are connected to the analog ports to provide different feedback for various pressures. I also attached a 100KΩ resistor to each wafer to prevent damage to the Nano. I used whatever large-load resistors were lying around, but I recommend 1MΩ for future projects.
 
-I used [this](https://www.amazon.com/MakerFocus-Discharge-Integrated-Charging-Protection/dp/B07PZT3ZW2/) boost converter in my project because of its battery charging capabilities bundled with a pretty cool battery indicator. I desoldered the "key" button and bridged the connection with a wire to prevent powering off.
+I used [this](https://www.amazon.com/MakerFocus-Discharge-Integrated-Charging-Protection/dp/B07PZT3ZW2/) boost converter in my project because of its battery charging capabilities bundled with a pretty cool battery indicator. I desoldered the "key" button and bridged the connection with the push-button to allow turning on and prevent powering off.
 
 ### Code
 
 This is the first completed project where I used a C++ class in a practical scenario. Although OOP wasn't necessary, it was interesting to complete. The code is in `shield.ino` with ample comments to set you on your way. :)
 
 ### Images
+## Images
+<p align="center">
+<img width=50% src=/assets/files/bar-mitzvah/unconnected.jpg alt="Exposed">
+</p>
+<center><em>Sensor Placement</em></center>
+
+<p align="center">
+<img width=50% src=/assets/files/bar-mitzvah/cardboard.jpg alt="Covered">
+</p>
+<center><em>Final Product</em></center>
+
+<em>Shield Sensors Demo (2 candies thrown simultaneously)</em>
 
 ### Final Thoughts
-The shield detected a total of 44 candies. My brother got recognition of having the coolest and most well thought out Bar Mitzvah candy blocker in the synagogue. Sure, other children had tennis raquets or fly swatters, but they all cower at the might of Daniel's mighty Shield!
+The shield detected a total of 44 candies during his service. My brother got recognition of having the coolest and most well thought out Bar Mitzvah candy blocker in the synagogue. Sure, other children had tennis raquets or fly swatters, but they all cower at the might of Daniel's mighty Shield!
 
 Could I have used a better wiring system? Were the wire solder connections exposed? Could I have aesthetically made it much prettier and safer? Yes to all these questions. I had the idea to create an impact-sensor shield with a built in counter a week before the Bar Mitzvah began, and I managed to finish it the night before. I am amazed I could even finish on time, let alone it working as well as it did.

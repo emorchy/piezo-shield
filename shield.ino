@@ -8,7 +8,7 @@ using namespace std;
 #define DELAY 25 //prevents multiple counts for the same projectile. Low: speedy, high chance of multi-counting. High: chance of missing projectile, low chance of multi-counting
 
 const int knockSensors[5] = {A0, A1, A2, A3, A4}; //change as needed for number of sensors
-const int pinKey = 9;
+const int pinKey = 9; //push-button
 unsigned long resetTime = 0;
 unsigned long downTime = 0;
 bool clicked = false;

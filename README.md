@@ -56,12 +56,12 @@ This is the first completed project where I used a C++ class in a practical scen
 ### Images
 ## Images
 <p align="center">
-<img width=50% src=/assets/files/bar-mitzvah/unconnected.jpg alt="Exposed">
+<img width=50% src=images/unconnected.jpg alt="Exposed">
 </p>
 <center><em>Sensor Placement</em></center>
 
 <p align="center">
-<img width=50% src=/assets/files/bar-mitzvah/cardboard.jpg alt="Covered">
+<img width=50% src=images/cardboard.jpg alt="Covered">
 </p>
 <center><em>Final Product</em></center>
 
